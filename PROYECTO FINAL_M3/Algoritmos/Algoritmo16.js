@@ -34,6 +34,7 @@ function numeroRomanoANumeroArabigo(romano) {
     return resultado;
 }
 
+
 let numeroRomano = "MCMXCIV";
 let numeroArabigo = numeroRomanoANumeroArabigo(numeroRomano);
 console.log(`El número ${numeroRomano} es ${numeroArabigo}.`);

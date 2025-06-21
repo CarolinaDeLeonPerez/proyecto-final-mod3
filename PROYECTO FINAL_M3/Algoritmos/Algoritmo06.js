@@ -1,12 +1,18 @@
 console.log(`${algoritmo} 6`);
 
-function fib(n) {
-    if (n <= 1) {
-        return n; 
+function fib(num) {
+        if (typeof num !== 'number' || isNaN(num)) {
+        console.log(`El valor "${num}" no es un número válido.`);
+        return;
     }
-    return fib(n - 1) + fib(n - 2);
+    
+    if (num <= 1) {
+        return num; 
+    }
+    return fib(num - 1) + fib(num - 2);
 }
 
 console.log(fib(6));
 console.log(fib(8));
 console.log(fib(21));
+console.log(fib("a"));

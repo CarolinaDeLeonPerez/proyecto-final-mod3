@@ -17,8 +17,8 @@ var palabrasYQuizasAnagramas = [
 },
 
 {
-    palabra: "Ola",
-    quizasAnagrama: "Alo"
+    palabra: "121",
+    quizasAnagrama: "211"
 },
 
 ];

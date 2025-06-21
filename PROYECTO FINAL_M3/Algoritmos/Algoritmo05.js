@@ -18,3 +18,6 @@ palindromo("arepera");
 palindromo("reconocer")
 palindromo("lluvia");
 palindromo("té");
+palindromo("0110");
+palindromo("0123");
+palindromo("🌻🌼🌷");
