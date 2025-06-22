@@ -14,6 +14,7 @@ function bubbleSort(arr) {
         }
     }
     return arr;
+    //Utilizando el algoritmo de burbuja, desglosamos los diferentes valores introducidos en el array y los ordenamos de forma ascendente.
 }
 
-console.log("sorted Array", bubbleSort(array));
+console.log("sorted Array", bubbleSort(array)); // [2, 5, 6, 7, 8, 9]

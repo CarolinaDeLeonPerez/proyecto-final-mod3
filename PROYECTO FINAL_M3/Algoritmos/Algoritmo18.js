@@ -30,13 +30,19 @@ function leetSpeak(text) {
         "z": "2"
     };
 
+    //Introducimos el abecedario completo con su equivalencia. 
+
     let leetText = "";
     for (let char of text.toLowerCase()) {
         leetText += leetMap[char] || char;
     }
     return leetText;
+
+    //Configuramos la variable for para que tome los datos introducidos en leetText y lo convierta en un texto cifrado a través del método "lowercase".
 }
 
 let frase = "supercalifragilisticoespialidoso";
+//Introducimos el valor que queremos cifrar.
 let fraseLeet = leetSpeak(frase);
-console.log(fraseLeet);
+//Configuramos "fraseLeet" para que sea igual que "leetSpeak". Ejecutamos el programa con "fraseLeet".
+console.log(fraseLeet); //5[_]|>3|2(41||=|246|1|57|(035|>|41|[)050

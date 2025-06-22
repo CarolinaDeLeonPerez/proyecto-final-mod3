@@ -9,7 +9,7 @@ function countString(str, letter) {
         }
     }
     return count;
-}
+} //La función determina cada fuente que pertenece al string y calcula la cantidad de coincidencias en base a "letterToCheck". Mara ello utilizamos el método "charAt()" que nos devuelve un caracter determinado en el string.
 
 let string = prompt("Enter a string: "); //supercalifragilísticoespialidoso
 let letterToCheck = prompt("Enter a letter to check: "); //s

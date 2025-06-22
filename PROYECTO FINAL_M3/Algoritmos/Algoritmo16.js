@@ -17,6 +17,8 @@ function numeroRomanoANumeroArabigo(romano) {
         "I": 1,
     };
 
+    //Introducimos los valores que constituyen los números romanos y su equivalencia con los números arábicos)
+
     let resultado = 0;
     let i = 0;
 
@@ -34,7 +36,13 @@ function numeroRomanoANumeroArabigo(romano) {
     return resultado;
 }
 
+//Creamos un bucle en el que el algoritmo actúa de dos formas en base a Tiene que ser compatible con los datos integrados en nuestro "romanoMap":
+// "simbolo" lee varios string a la vez debido a que los números romanos pueden dar pie a diferentes combinaciones. 
+// "simbolo" lo utilizamos para cuando los números no crean combinaciones y se mantienen en su naturaleza original. 
 
-let numeroRomano = "MCMXCIV";
+
+
+
+let numeroRomano = "MCMXCIV"; //El número MCMXCIV es 1994.
 let numeroArabigo = numeroRomanoANumeroArabigo(numeroRomano);
 console.log(`El número ${numeroRomano} es ${numeroArabigo}.`);
